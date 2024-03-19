@@ -1,0 +1,28 @@
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.1vw;
+  background-color: black;
+  margin-top: 0.1vh;
+  padding-left: 9vw;
+  padding-right: 9vw;
+}
+
+.image {
+  flex-basis: calc(25% - 20px); /* Adjust as needed */
+  margin: 8px;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%; /* Make the image fill the width of the container */
+  height: 100%; /* Make the image fill the height of the container */
+  object-fit: cover; /* Preserve aspect ratio while covering the container */
+}

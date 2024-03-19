@@ -1,0 +1,446 @@
+.about{
+  width: 100%;
+  height: 500vh;
+}
+
+.Aboutus-head {
+    width: 100%;
+    height: 80vh;
+    margin-top: 0.1vh;
+    position: relative;
+    /* overflow: hidden; */
+  }
+  .Aboutus-head img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .divider-img {
+    background-image: url(../../assets/AboutImg/pexels-chan-walrus-958545.jpg);
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    position: absolute;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    background-attachment: fixed;
+  }
+  .divider-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .diamond-square {
+    width: 0;
+    height: 209px;
+    border: 50px solid transparent;
+    border-bottom-color: white;
+    position: relative;
+    border-left-width: 250px; /* Increase this value to make the arrow wider from left */
+    border-right-width: 250px; /* Increase this value to make the arrow wider from right */
+    top: 55px;
+    left: -4%;
+  }
+  .abt-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    top: 15%;
+    left: 34%;
+  }
+  
+  .OurResto-content {
+    width: 54%;
+    margin: 1% 23%;
+    padding-bottom: 30px;
+  }
+  
+  .policy-head1 {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 3%;
+  }
+  .policy-head1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .policy-img1 {
+    background-image: url(../../assets/AboutImg/slide-6.webp);
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    position: relative;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    background-attachment: fixed;
+  }
+  .policy-img1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .diamond-squaree2 {
+    width: 0;
+    height: 380px;
+    border: 55px solid transparent;
+    border-bottom-color: white;
+    position: absolute;
+    border-left-width: 250px; /* Increase this value to make the arrow wider from left */
+    border-right-width: 250px; /* Increase this value to make the arrow wider from right */
+    top: 18%;
+  }
+  
+  .diamond-square-upper2:after {
+    content: "";
+    position: absolute;
+    left: 33%;
+    top: -80px;
+    width: 0;
+    height: 0;
+    border: 55px solid transparent;
+    border-top-color: white;
+    border-left-width: 250px; /* Increase this value to make the arrow wider from left */
+    border-right-width: 250px; /* Increase this value to make the arrow wider from right */
+  }
+  .abt-content1 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    top: 15%;
+    color: white;
+  }
+  
+  .OurFoodPolicy {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 5vw;
+    align-items: start;
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  .OurCoreValues {
+    width: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 5vw;
+    font-size: 1.3rem;
+    justify-content: left;
+    text-align: left;
+  }
+  .FewWordsAboutUs {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin: 2% 0;
+  }
+  .left {
+    width: 40%;
+    height: 60vh;
+    margin: 0 10%;
+    justify-content: left;
+    text-align: left;
+  }
+  .right {
+    width: 45%;
+    height: 60vh;
+    margin: 0 2%;
+  }
+  .underline {
+    width: 50px;
+    background-color: #ff6700;
+    margin-left: 0;
+    border: 0;
+    height: 1px;
+  }
+  .Button23 {
+    width: 20px;
+    background-color: #ef8354;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #f5f3f4;
+    border-radius: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .Button23:hover {
+    background-color: #ff6700;
+  }
+  
+  .rightimage {
+    position: relative;
+    width: 100%;
+  }
+  .rightimage img {
+    object-fit: cover;
+    /* background-color: #ff6700; */
+    width: 100%;
+    height: 80vh;
+    margin-left: 5vw;
+    padding:0.5vw ;
+    border-radius: 1vw;
+    margin-bottom: 5%;
+  }
+  .rightcontent {
+    position: absolute;
+    top: 35%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    left: 60%;
+    transform: translateX(-50%);
+    color: white;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 10px;
+    text-align: center;
+  }
+  .RenownedChefs-container1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: -2%;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+}
+
+.RenownedChefs-left1 h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: "Abril Fatface";
+}
+
+  .RenownedChefs-left1 {
+    width: 45%;
+    height: 60vh;
+    padding: 1vw;
+    margin: 0% 4%;
+  }
+  .RenownedChefs-right {
+    width: 20%;
+    height: 40vh;
+    margin-top: -8%;
+  }
+  .logocrop {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .RenownedChefs-left1 .mtte-des {
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  
+  .Icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 40%;
+  }
+  .ReviewUsOn-containers .iconborder {
+    border: 2px dotted #ccc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .ReviewUsOn-containers .socialicon {
+    margin: 0 5px;
+  }
+  
+  .ReviewUsOn-containers .socialicon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4267b2;
+    border-radius: 50%;
+    line-height: normal;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .ReviewUsOn-containers .socialicon a img {
+    width: 20px;
+    height: auto;
+  }
+  /* animation about us text*/
+  .animate-text-about {
+    position: relative;
+    top: 50px;
+    opacity: 0;
+    font-family: "Abril Fatface";
+    animation: animate-up 2s ease-out forwards;
+  }
+  
+  @keyframes animate-up {
+    0% {
+      top: 100px;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  /* animation for know more text */
+  .animate-text-know {
+    position: relative;
+    bottom: 100px;
+    opacity: 0;
+    font-family: "Abril Fatface";
+    animation: animate-down 2s ease-out forwards;
+  }
+  
+  @keyframes animate-down {
+    0% {
+      bottom: 100px;
+      opacity: 0;
+    }
+    100% {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+  /* animation for our Restro */
+  .hidden {
+    opacity: 0;
+    transition: all 1s;
+  }
+  .show {
+    opacity: 1;
+    position: relative;
+    bottom: 100px;
+    opacity: 0;
+    animation: animate-down 2s ease-out forwards;
+  }
+  .animate-text-OurRestro {
+    position: relative;
+    bottom: 100px;
+    opacity: 0;
+    font-family: "Abril Fatface";
+    font-weight: 600;
+    animation: animate-down 2s ease-out forwards;
+  }
+  
+  @keyframes animate-down {
+    0% {
+      bottom: 100px;
+      opacity: 0;
+    }
+    100% {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+  /* media query */
+  
+  /* For screens smaller than 600px */
+  @media screen and (max-width: 600px) {
+    .Aboutus-head {
+      height: 50vh;
+    }
+  
+    .policy-head {
+      height: 50vh;
+    }
+  
+    .RenownedChefs-left {
+      width: 100%;
+      height: 50vh;
+      margin: 0% 0%;
+    }
+  
+    .RenownedChefs-right {
+      width: 30%;
+      height: 30vh;
+      margin-top: -10%;
+    }
+  
+    .Icons {
+      margin: 0 20%;
+    }
+  }
+  
+  /* For screens smaller than 900px */
+  @media screen and (max-width: 900px) {
+    .Aboutus-head {
+      height: 50vh;
+    }
+  
+    .policy-head {
+      height: 50vh;
+    }
+  
+    .RenownedChefs-left {
+      width: 100%;
+      height: 50vh;
+      margin: 0% 0%;
+    }
+  
+    .RenownedChefs-right {
+      width: 30%;
+      height: 30vh;
+      margin-top: -10%;
+    }
+  
+    .Icons {
+      margin: 0 20%;
+    }
+  }
+  
+  /* For screens larger than 900px */
+  @media screen and (min-width: 900px) {
+    .Aboutus-head {
+      height: 80vh;
+    }
+  
+    .policy-head {
+      height: 80vh;
+    }
+  
+    .RenownedChefs-left {
+      width: 45%;
+      height: 60vh;
+      margin: 0% 4%;
+    }
+  
+    .RenownedChefs-right {
+      width: 20%;
+      height: 40vh;
+      margin-top: -8%;
+    }
+  
+    .Icons {
+      margin: 0 40%;
+    }
+  }
