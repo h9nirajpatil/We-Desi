@@ -2,7 +2,7 @@
 
 import { React, useEffect } from "react";
 import "./about.css";
-import "./styles.css"
+import "./styles.css";
 import { FaWifi } from "react-icons/fa";
 import divider from "../../assets/images/divider-free-img-1.png";
 import sliderimage1 from "../../assets/AboutImg/slide-2.webp";
@@ -10,7 +10,7 @@ import sliderimage2 from "../../assets/AboutImg/slide3.webp";
 import sliderimage3 from "../../assets/AboutImg/slide-4.webp";
 import sliderimage4 from "../../assets/AboutImg/slide-5.webp";
 import sliderimage5 from "../../assets/AboutImg/slide-6.webp";
-import desiHome from "../../assets/images/desi-home.jpg"
+import desiHome from "../../assets/images/desi-home.jpg";
 import logo2 from "../../assets/AboutImg/cropped-siteicon-black.webp";
 import instlogo from "../../assets/AboutImg/instagram-reels-white-icon.png";
 import loading from "../../assets/AboutImg/download-removebg-preview.png";
@@ -62,43 +62,23 @@ const About = () => {
 
   return (
     <div className="about">
-
       {/* About Us Head */}
       <div id="Top" className="Aboutus-head">
         <div className="divider-img">
           <div className="abt-content">
             <img
-              style={{ width: "200px", marginLeft: "140px" }}
+              style={{ width: "200px" }}
               className="abt-img"
               src={divider}
               alt="divider-img"
             ></img>
             <section className="hidden">
-              <p
-                id="knowMoreText"
-                className="animate-text-know "
-                style={{
-                  color: "#ff6700",
-                  fontSize: "2.5rem",
-                  fontWeight: "700",
-                  margin: "10px 0px ",
-                }}
-              >
+              <p id="knowMoreText" className="animate-text-know ">
                 Know More
               </p>
             </section>
             <section className="hidden" id="aboutText">
-              <p
-                className="animate-text-about"
-                style={{
-                  color: "white",
-                  fontSize: "6rem",
-                  fontWeight: "700",
-                  margin: "-40px 0px ",
-                }}
-              >
-                About Us.
-              </p>
+              <p className="animate-text-about">About Us.</p>
             </section>
             <p className="diamond-square"></p>
           </div>
@@ -112,10 +92,12 @@ const About = () => {
             Our Resto.
           </h1>
         </section>
-        <p style={{fontSize: "1.2rem",fontWeight:'400' }}>WeDesi is here to add happiness to your lives</p>
+        <p style={{ fontSize: "1.2rem", fontWeight: "400" }}>
+          WeDesi is here to add happiness to your lives
+        </p>
         <img src={divider} alt="divider-img"></img>
         <div className="OurResto-content">
-          <p style={{fontSize: "1.2rem",fontWeight:'400' }}>
+          <p style={{ fontSize: "1.2rem", fontWeight: "400" }}>
             WeDesi is here to add happiness to your lives by providing you the
             most delish Indian Sweets and everyone’s favorite Indian Street
             food. Wedesi is the first Indian restaurant in Montreal to bring the
@@ -163,10 +145,24 @@ const About = () => {
         {/*  A Few Words About Us*/}
         <div style={{ marginTop: "8%" }} className="FewWordsAboutUs">
           <div className="left">
-            <h1 style={{ fontSize: "3rem" ,fontFamily:"Abril" ,fontWeight:'bold'}}>A Few Words About Us</h1>
+            <h1
+              style={{
+                fontSize: "3rem",
+                fontFamily: "Abril",
+                fontWeight: "bold",
+              }}
+            >
+              A Few Words About Us
+            </h1>
             <p style={{ marginBottom: "5%" }}>Lakhvir Singh</p>
             <div style={{ marginBottom: "4%" }} className="underline" />
-            <p style={{ marginBottom: "30px",fontSize: "1.2rem",fontWeight:'400' }}>
+            <p
+              style={{
+                marginBottom: "30px",
+                fontSize: "1.2rem",
+                fontWeight: "400",
+              }}
+            >
               As a teenager coming to a new country was no easy task. Singh
               started his career in the food industry from the beginning and
               ploughed through all the challenges he faced. After years of
@@ -186,7 +182,9 @@ const About = () => {
             <div className="rightimage">
               <img src={desiHome} alt="img"></img>
               <div className="rightcontent">
-                <p><FaWifi size={60} /> </p>
+                <p>
+                  <FaWifi size={60} />{" "}
+                </p>
                 <p>Free Wifi For Everyone</p>
                 <p>Ask for password to any staff members</p>
               </div>
@@ -202,17 +200,17 @@ const About = () => {
               <div className="d-flex">
                 <div className="OurFoodPolicy">
                   <h1>Our Food Policy</h1>
-                  <p >
+                  <p>
                     Our diverse menu will introduce you to all regions of India
                     with our authentic flavors and spices. WeDesi is looking
-                    forward to be part of your celebrations and special occasions
-                    and creating moments filled with happiness with your loved
-                    ones.
+                    forward to be part of your celebrations and special
+                    occasions and creating moments filled with happiness with
+                    your loved ones.
                   </p>
                 </div>
                 <div className="OurCoreValues">
                   <h1>Our Core Values</h1>
-                  <p >
+                  <p>
                     The place where customers would come to enjoy the authentic
                     street food but most importantly take some happiness(sweets)
                     back home in a box!!
