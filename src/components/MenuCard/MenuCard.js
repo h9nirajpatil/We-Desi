@@ -1924,7 +1924,8 @@ function MenuCard() {
               <p className="text-white text-start price">$ 0.99</p>
             </div>
             <img src={Chutney} alt="Chutney" />
-          </div>
+                  </div>
+                  
           <div class="menucards">
             <div className="menucards-1 mt-2">
               <p className="text-white text-start first-text">Pickle</p>
