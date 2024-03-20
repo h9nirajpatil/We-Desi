@@ -1,8 +1,8 @@
 // ScrollToTopButton.js
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { IoIosArrowUp } from "react-icons/io";
-import "./Scrolltotobuttonstyle.css"
+import "./Scrolltotobuttonstyle.css";
 function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -13,17 +13,18 @@ function ScrollToTopButton() {
           (document.documentElement.scrollHeight -
             document.documentElement.clientHeight)) *
         100;
-      if (scrollPercent > 1.5) { // Change the threshold to 30%
+      if (scrollPercent > 1.5) {
+        // Change the threshold to 30%
         setIsVisible(true);
       } else {
         setIsVisible(false);
       }
     };
 
-    window.addEventListener('scroll', scrollFunction);
+    window.addEventListener("scroll", scrollFunction);
 
     return () => {
-      window.removeEventListener('scroll', scrollFunction);
+      window.removeEventListener("scroll", scrollFunction);
     };
   }, []);
 
@@ -35,10 +36,10 @@ function ScrollToTopButton() {
   return (
     <button
       className="scroll-to-top-button"
-      style={{ display: isVisible ? "block" : "none",padding:"1.5vh 2vh" }}
+      style={{ display: isVisible ? "block" : "none", padding: "1.5vh 2vh" }}
       onClick={scrollToTop}
     >
-      <IoIosArrowUp style={{ fontSize: "2rem",fontWeight:"900" }} />
+      <IoIosArrowUp style={{ fontSize: "2rem", fontWeight: "900" }} />
     </button>
   );
 }

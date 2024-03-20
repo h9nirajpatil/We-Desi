@@ -32,7 +32,8 @@ function StickyButton() {
 
   return (
     //Button Rendering:
-    <button
+    <a
+      href="/"
       id="stickyBtn"
       className="sticky-button"
       style={{ display: showButton ? "block" : "none" }}
@@ -41,7 +42,7 @@ function StickyButton() {
       }}
     >
       Main Menu
-    </button>
+    </a>
     /*Renders a button element with the following attributes:
 id: "stickyBtn"
 className: "sticky-button"
