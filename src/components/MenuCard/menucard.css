@@ -1,108 +1,107 @@
-.menucard{
-    background-color: black;
-    width: 100%;
-    height: 100%;
+.menucard {
+  background-color: black;
+  width: 100%;
+  height: 100%;
 }
 
-.menu-1{
-    width: 100%;
-    height: 20vh;
-    object-fit: cover;
-    position: relative;
-    background-position: center;
-    background-size: 100%;
-    display: flex;
-    background-image: url(../../assets/images/south.png);
+.menu-1 {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  position: relative;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+  background-image: url(../../assets/images/south.png);
 }
 
-
-.menu-2{
-    width: 100%;
-    height: 20vh;
-    object-fit: cover;
-    position: relative;
-    background-position: center;
-    background-size: 100%;
-    display: flex;
-    background-image: url(../../assets/images/images.jpg);
+.menu-2 {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  position: relative;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+  background-image: url(../../assets/images/images.jpg);
 }
 
-.menucard-img1{
-    content: "";
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    width: 97%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-.Chatpata-menu{
-    content: "";
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    z-index: 11;
-    font-size: 2vw;
-    top: 20%;
-    left: 5%;
-    width: 30%;
-    height: 60%;
-    background-color: rgba(0, 0, 0, 0.5);
+.menucard-img1 {
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 97%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.menucard-container{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0.06vw;
-    /* background-color: black; */
-    margin-top: 0.1vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
+.Chatpata-menu {
+  content: "";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 11;
+  font-size: 2vw;
+  top: 20%;
+  left: 5%;
+  width: 30%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.menucards-1{
-    width: 100%;
-    height: 100%;
-    margin: 8px;
+.menucard-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.06vw;
+  /* background-color: black; */
+  margin-top: 0.1vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
-.menucard-head{
-    position: relative;
-    margin-top: 0.3vh;
-    padding: 2vw;
+.menucards-1 {
+  width: 100%;
+  height: 100%;
+  margin: 8px;
 }
 
-.first-text{
-    font-size: 1.6vw;
+.menucard-head {
+  position: relative;
+  margin-top: 0.3vh;
+  padding: 2vw;
 }
 
-p{
-   font-family: 'Poppins', sans-serif;
+.first-text {
+  font-size: 1.6vw;
 }
 
-.price{
-    font-size: 2vw;
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.price {
+  font-size: 2vw;
 }
 
 .menucards {
-    flex-basis: calc(50% - 15px); 
-    margin: 6px;
-    border: 0.2vw solid #fff; /* Correct usage of border property */
-    border-radius: 0.3vw;
-    width: 80%;
-    height: 28vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 0.3vh;
-    padding: 0.1vw;
-    padding-left: 0.4vw;
-    padding-right: 0.8vw;
-    align-items: center;
-    box-sizing: border-box;
-    object-fit: cover;
-    overflow: hidden;
+  flex-basis: calc(50% - 15px);
+  margin: 6px;
+  border: 0.2vw solid #fff; /* Correct usage of border property */
+  border-radius: 0.3vw;
+  width: 80%;
+  height: 28vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.3vh;
+  padding: 0.1vw;
+  padding-left: 0.4vw;
+  padding-right: 0.8vw;
+  align-items: center;
+  box-sizing: border-box;
+  object-fit: cover;
+  overflow: hidden;
 }
