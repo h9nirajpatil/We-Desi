@@ -12,8 +12,8 @@ import sliderimage4 from "../../assets/AboutImg/slide-5.webp";
 import sliderimage5 from "../../assets/AboutImg/slide-6.webp";
 import desiHome from "../../assets/images/desi-home.jpg";
 import logo2 from "../../assets/AboutImg/cropped-siteicon-black.webp";
-import instlogo from "../../assets/AboutImg/instagram-reels-white-icon.png";
-import loading from "../../assets/AboutImg/download-removebg-preview.png";
+// import instlogo from "../../assets/AboutImg/instagram-reels-white-icon.png";
+// import loading from "../../assets/AboutImg/download-removebg-preview.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -21,6 +21,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
+// import { IoIosArrowUp } from "react-icons/io";
 
 const About = () => {
   // Define a function to observe elements using IntersectionObserver
@@ -308,6 +311,7 @@ const About = () => {
           </a>
         </div> */}
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

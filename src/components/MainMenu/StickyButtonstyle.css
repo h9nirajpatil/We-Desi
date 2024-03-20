@@ -1,0 +1,17 @@
+.sticky-button {
+  position: fixed !important;
+  top: 0px !important; /* Adjust the top position as needed */
+  left: 0px !important; /* Adjust the left position as needed */
+  background-color: #f5ac7b !important;
+  color: #fff !important;
+  padding: 15px 30px !important;
+  cursor: pointer;
+  transition: opacity 0.3s !important;
+  z-index: 1000 !important;
+  display: none; /* Initially hidden */
+  border: 0px !important;
+  border-radius: 30px !important;
+}
+.sticky-button:hover {
+  background-color: #ff7519 !important;
+}

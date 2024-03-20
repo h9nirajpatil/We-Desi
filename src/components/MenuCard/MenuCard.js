@@ -182,9 +182,135 @@ import OnionSalad from "../../assets/MenuCardImg/Sides/Onion-Salad.webp";
 import Chutney from "../../assets/MenuCardImg/Sides/Chutney.webp";
 import Pickle from "../../assets/MenuCardImg/Sides/Pickle.webp";
 
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
+import StickyButton from "../MainMenu/StickyButton";
+
+// import { IoIosArrowUp } from "react-icons/io";
+
+// //We're using the useState hook to manage the state of whether to show the button or not.
+// function StickyButton() {
+//   const [showButton, setShowButton] = useState(false);
+//   const [isVisible, setIsVisible] = useState(false);
+
+//   // We're using the useEffect hook to add an event listener for the scroll event when the component mounts, and removing it when the component unmounts.
+//   useEffect(() => {
+//     //   Inside the scrollFunction, we calculate the scroll percentage and update the state accordingly.
+//     const scrollFunction = () => {
+//       const scrollPercent =
+//         ((document.documentElement.scrollTop + document.body.scrollTop) /
+//           (document.documentElement.scrollHeight -
+//             document.documentElement.clientHeight)) *
+//         100;
+//       //The button's display is controlled by the showButton state variable. If showButton is true, the button will be displayed, otherwise, it will be hidden.
+//       if (scrollPercent > 0.8) {
+//         setShowButton(true);
+//       } else {
+//         setShowButton(false);
+//       }
+//     };
+
+//     window.addEventListener("scroll", scrollFunction);
+
+//     return () => {
+//       window.removeEventListener("scroll", scrollFunction);
+//     };
+//   }, []);
+
+//   return (
+//     <button
+//       id="stickyBtn"
+//       className="sticky-button"
+//       style={{ display: showButton ? "block" : "none" }}
+//     >
+//       Main Menu
+//     </button>
+//   );
+// }
+
+// function StickyButton() {
+//   const [showButton, setShowButton] = useState(false);
+
+//   useEffect(() => {
+//     const scrollFunction = () => {
+//       const scrollPercent =
+//         ((document.documentElement.scrollTop + document.body.scrollTop) /
+//           (document.documentElement.scrollHeight -
+//             document.documentElement.clientHeight)) *
+//         100;
+//       if (scrollPercent > 0.8) {
+//         setShowButton(true);
+//       } else {
+//         setShowButton(false);
+//       }
+//     };
+
+//     window.addEventListener("scroll", scrollFunction);
+
+//     return () => {
+//       window.removeEventListener("scroll", scrollFunction);
+//     };
+//   }, []);
+
+//   return (
+//     <button
+//       id="stickyBtn"
+//       className="sticky-button"
+//       style={{ display: showButton ? "block" : "none" }}
+//       onClick={() => {
+//         // Do something when the button is clicked, e.g., scroll to a specific section
+//       }}
+//     >
+//       Main Menu
+//     </button>
+//   );
+// }
+
+// function ScrollToTopButton() {
+//   const [isVisible, setIsVisible] = useState(false);
+
+//   useEffect(() => {
+//     const scrollFunction = () => {
+//       const scrollPercent =
+//         ((document.documentElement.scrollTop + document.body.scrollTop) /
+//           (document.documentElement.scrollHeight -
+//             document.documentElement.clientHeight)) *
+//         100;
+//       if (scrollPercent > 2) {
+//         // Change the threshold to 30%
+//         setIsVisible(true);
+//       } else {
+//         setIsVisible(false);
+//       }
+//     };
+
+//     window.addEventListener("scroll", scrollFunction);
+
+//     return () => {
+//       window.removeEventListener("scroll", scrollFunction);
+//     };
+//   }, []);
+
+//   const scrollToTop = () => {
+//     document.body.scrollTop = 0;
+//     document.documentElement.scrollTop = 0;
+//   };
+
+//   return (
+//     <button
+//       className="scroll-to-top-button"
+//       style={{ display: isVisible ? "block" : "none",padding:"1.5vh 2vh" }}
+//       onClick={scrollToTop}
+//     >
+//       <IoIosArrowUp style={{ fontSize: "2rem",fontWeight:"900" }} />
+//     </button>
+//   );
+// }
+
 function MenuCard() {
   return (
     <div className="menucard">
+      <StickyButton />
+
       <div className="">
         <div className="menucard-head">
           <div className="menu-1 p-4">
@@ -1924,8 +2050,8 @@ function MenuCard() {
               <p className="text-white text-start price">$ 0.99</p>
             </div>
             <img src={Chutney} alt="Chutney" />
-                  </div>
-                  
+          </div>
+
           <div class="menucards">
             <div className="menucards-1 mt-2">
               <p className="text-white text-start first-text">Pickle</p>
@@ -1936,6 +2062,7 @@ function MenuCard() {
           </div>
         </div>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 }

@@ -105,3 +105,11 @@ p {
   object-fit: cover;
   overflow: hidden;
 }
+/*  */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+
