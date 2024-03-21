@@ -31,12 +31,11 @@ function StickyButton() {
   }, []);
 
   return (
-    //Button Rendering:
     <a
       href="/"
       id="stickyBtn"
       className="sticky-button"
-      style={{ display: showButton ? "block" : "none" }}
+      style= {{ display: showButton ? "block" : "none" }}
       onClick={() => {
         // Do something when the button is clicked, e.g., scroll to a specific section
       }}

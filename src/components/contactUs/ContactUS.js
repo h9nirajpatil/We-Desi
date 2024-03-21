@@ -5,6 +5,7 @@ import divider from "../../assets/images/divider-free-img-1.png";
 
 import "../about/about.css";
 import "../../App.css";
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 
 const ContactUs = () => {
   // Define a function to observe elements using IntersectionObserver
@@ -47,7 +48,6 @@ const ContactUs = () => {
   return (
     <>
       <div className="contact-container">
-
         <div id="Top" className="contactus-head">
           <div className="cntdivider-img">
             <div className="cnt-content">
@@ -58,50 +58,44 @@ const ContactUs = () => {
                 alt="divider-img"
               ></img>
               <section className="hidden">
-                <p
-                  id="knowMoreText"
-                  className="animate-text-know"
-                  style={{
-                    color: "#ff6700",
-                    fontSize: "2.5rem",
-                    fontWeight: "700",
-                    margin: "8px 0px ",
-                  }}
-                >
+                <p id="knowMoreText" className="animate-text-know">
                   Reserve A Table
                 </p>
               </section>
               <section className="hidden" id="aboutText">
-                <p
-                  className="animate-text-about"
-                  style={{
-                    color: "white",
-                    fontSize: "6rem",
-                    fontWeight: "700",
-                    margin: "-60px 0px ",
-                  }}
-                >
-                  Contact Us.
-                </p>
-                <p
-                  id="aboutText"
-                  className="animate-text-about"
-                  style={{
-                    color: "white",
-                    fontSize: "1.5rem",
-                    fontWeight: "100",
-                    margin: "10% 0px ",
-                  }}
-                >
-                  Wedesi is the first Indian restaurant in Montreal to bring the
-                  Indian sweets <br /> and authentic street foods from all over
-                  India under one roof.
-                </p>
+                <section className="hidden">
+                  <p
+                    className="animate-text-about"
+                    style={{
+                      color: "white",
+                      fontSize: "6rem",
+                      fontWeight: "700",
+                      margin: "-60px 0px ",
+                    }}
+                  >
+                    Contact Us.
+                  </p>
+                </section>
+
+                <section className="hidden">
+                  <p
+                    id="aboutText"
+                    className="animate-text-about"
+                    style={{
+                      color: "white",
+                      fontSize: "1.5rem",
+                      fontWeight: "100",
+                      margin: "10% 0px ",
+                    }}
+                  >
+                    Wedesi is the first Indian restaurant in Montreal to bring
+                    the Indian sweets <br /> and authentic street foods from all
+                    over India under one roof.
+                  </p>
+                </section>
               </section>
-              <p
-                style={{ marginTop: "-17%", marginLeft: "100px" }}
-                className="cntdiamond-square"
-              ></p>
+
+              <p className="cntdiamond-square"></p>
             </div>
           </div>
         </div>
@@ -246,6 +240,7 @@ const ContactUs = () => {
               Every Thursday, 4PM – 7PM
             </p>
           </section>
+          <ScrollToTopButton />
         </div>
       </div>
     </>

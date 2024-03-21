@@ -17,6 +17,7 @@ import dessert from "../../assets/MenuImg/dessert.jpg";
 import kidsspecial from "../../assets/MenuImg/kidsspecial.jpg";
 import salad from "../../assets/MenuImg/salad.jpg";
 import { NavLink } from "react-router-dom";
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 
 const Menu = () => {
   return (
@@ -142,6 +143,7 @@ const Menu = () => {
         </NavLink>
       </div>
       {/* Menu Items Cards Starts */}
+      <ScrollToTopButton />
     </div>
   );
 };
