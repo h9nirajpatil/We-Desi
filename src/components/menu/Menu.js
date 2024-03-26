@@ -63,79 +63,79 @@ const Menu = () => {
 
       {/* Menu Items Cards Starts */}
       <div style={{ padding: "15px 50px" }} className="grid-container">
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/Chatpata Chats" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Chatpata Chats</p>
             <img className="blackshadow" src={panipuri} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/TikkeShikke" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Tikke Shikke</p>
             <img src={Tikki} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/burger" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Burger and Rolls</p>
             <img src={vadapav} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/IndoChinese" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Indo chinese</p>
             <img src={chinese} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/SouthIndian" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">South Indian</p>
             <img src={dosa} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/DesiCurries" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Desi Curries</p>
             <img src={curry} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/PranthaandNaan" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Prantha and Naan</p>
             <img src={parata} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/WeDesiCombo" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">WeDesi Combo</p>
             <img src={combo} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/Rice" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Masala Rice</p>
             <img src={rice} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/Drinks" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Cold Drinks</p>
             <img src={softdrink} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/Dessert" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Indian Desserts</p>
             <img src={dessert} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/KidsSpecial" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Kids Special</p>
             <img src={kidsspecial} alt="menuimage"></img>
           </div>
         </NavLink>
-        <NavLink to="/menucard" activeClassName="active">
+        <NavLink to="/menucard/Sides" activeClassName="active">
           <div className="grid-item">
             <p className="image-text">Sides ans Slaw</p>
             <img src={salad} alt="menuimage"></img>

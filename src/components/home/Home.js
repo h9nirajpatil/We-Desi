@@ -15,6 +15,7 @@ import client2 from "../../assets/images/client2-free-img.png";
 import client3 from "../../assets/images/client3-free-img.png";
 import client4 from "../../assets/images/client4-free-img.png";
 import "./Home.css";
+import "../about/about.css";
 import { NavLink } from "react-router-dom";
 import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 function isInViewport(element) {
@@ -49,12 +50,18 @@ function Home() {
           entry.target.classList.add("show");
 
           // Based on the ID of the observed element, add specific animation classes
-          if (entry.target.id === "happy-hours") {
-            entry.target.classList.add("animate-text-happy-hours");
+          if (entry.target.id === "aboutText") {
+            entry.target.classList.add("animate-text-about");
           } else if (entry.target.id === "knowMoreText") {
             entry.target.classList.add("animate-text-know");
           } else if (entry.target.id === "ourRestroText") {
             entry.target.classList.add("animate-text-OurRestro");
+          } else if (entry.target.id === "TheyAllLoveOurFood") {
+            entry.target.classList.add("animate-text-happy-hours1");
+          } else if (entry.target.id === "AllFoodAre_Bestinclass") {
+            entry.target.classList.add("animate-text-happy-hours1");
+          } else if (entry.target.id === "Theoutstandingtaste") {
+            entry.target.classList.add("animate-text-happy-hours1");
           }
 
           // Stop observing the element once the animation is applied
@@ -198,7 +205,11 @@ function Home() {
             ref={textBestOverlayRef}
             className={`best-desi-text ${animate ? "animate" : ""}`}
           >
-            <text>The Best Desi Food</text>
+            <section className="hidden">
+              <text id="knowMoreText" animate-text-know>
+                The Best Desi Food
+              </text>
+            </section>
           </div>
           <img className="" src={divider} alt="divider" />
           <p className="section-2-text-paragraph">
@@ -220,7 +231,10 @@ function Home() {
           ref={textOverlayRef3}
           className={`Delicacies ${animate ? "animate" : ""}`}
         >
-          <text>Featured Delicacies</text>
+          <section className="hidden">
+            <text id="knowMoreText">Featured Delicacies</text>
+          </section>
+          {/* <text>Featured Delicacies</text> */}
         </div>
         <text
           className="text-white"
@@ -234,17 +248,20 @@ function Home() {
           Fresh From the kitchen
         </text>
         <img className="divider-image1" src={divider} alt="divider" />
+
         <text
-          className="text-white"
+          className="AllFoodAre_Bestinclass"
           style={{
             zIndex: 10,
             fontSize: "1.5vw",
             fontWeight: 500,
             marginTop: "10vh",
+            color: "white",
           }}
         >
           All Food Are Best in class
         </text>
+
         <div className="image-shadow"></div>
       </div>
       <div className="section-4">
@@ -376,17 +393,25 @@ function Home() {
           </div>
         </div>
         <div className="section-5-2">
-          <text className="animate-text-happy-hours">
+          <section className="hidden">
+            <text id="knowMoreText"> Enjoy 30% Off on All Drinks</text>
+          </section>
+          {/* <text className="animate-text-happy-hours">
             Enjoy 30% Off on All Drinks
-          </text>
+          </text> */}
         </div>
         <div className="section-5-3">
-          <text className="animate-text-happy-hours1">
-            Every Thursday, 4PM – 7PM
-          </text>
+          <section className="hidden" id="AllFoodAre_Bestinclass">
+            <text className="animate-text-happy-hours1">
+              Every Thursday, 4PM – 7PM
+            </text>
+          </section>
         </div>
         <div className="section-5-Happy" id="happy-hours">
-          <text className="animate-text-happy-hours">Happy Hours</text>
+          <section className="hidden">
+            <text id="knowMoreText">Happy Hours</text>
+          </section>
+          {/* <text className="animate-text-happy-hours">Happy Hours</text> */}
         </div>
         <NavLink to="/menu" activeClassName="active">
           <button
@@ -401,16 +426,20 @@ function Home() {
       </div>
       <div className="section-6">
         <div className="section-6-1">
-          <text className="animate-text-happy-hours1">
-            They All Love Our Food
-          </text>
+          <section className="hidden" id="TheyAllLoveOurFood">
+            <text className="animate-text-happy-hours1">
+              They All Love Our Food
+            </text>
+          </section>
         </div>
         <img className="divider-image1" src={divider} alt="divider" />
         <div className="section-6-2">
-          <text className="animate-text-happy-hours1">
-            The outstanding taste and presentation of our food have earned us a
-            loyal following of satisfied customers.
-          </text>
+          <section className="hidden" id="Theoutstandingtaste">
+            <text className="animate-text-happy-hours1">
+              The outstanding taste and presentation of our food have earned us
+              a loyal following of satisfied customers.
+            </text>
+          </section>
         </div>
       </div>
       <div className="section-7">

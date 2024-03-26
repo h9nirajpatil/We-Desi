@@ -14,7 +14,6 @@ function ScrollToTopButton() {
             document.documentElement.clientHeight)) *
         100;
       if (scrollPercent > 1.5) {
-        // Change the threshold to 30%
         setIsVisible(true);
       } else {
         setIsVisible(false);

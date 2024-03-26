@@ -63,19 +63,19 @@ const ContactUs = () => {
                 </p>
               </section>
               <section className="hidden" id="aboutText">
-                <section className="hidden">
-                  <p
-                    className="animate-text-about"
-                    style={{
-                      color: "white",
-                      fontSize: "6rem",
-                      fontWeight: "700",
-                      margin: "-60px 0px ",
-                    }}
-                  >
-                    Contact Us.
-                  </p>
-                </section>
+                {/* <section className="hidden"> */}
+                <p
+                  className="animate-text-about"
+                  style={{
+                    color: "white",
+                    fontSize: "6rem",
+                    fontWeight: "700",
+                    margin: "-60px 0px ",
+                  }}
+                >
+                  Contact Us.
+                </p>
+                {/* </section> */}
 
                 <section className="hidden">
                   <p
@@ -236,7 +236,10 @@ const ContactUs = () => {
           </section>
           <p className="EnjoyOff mt-5">Enjoy 50% Off</p>
           <section className="hidden" id="aboutText">
-            <p className="animate-text-about HappyHours mt-5">
+            <p
+              style={{ color: "black" }}
+              className="animate-text-about HappyHours mt-5"
+            >
               Every Thursday, 4PM – 7PM
             </p>
           </section>

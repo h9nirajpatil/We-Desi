@@ -158,7 +158,7 @@ const About = () => {
               A Few Words About Us
             </h1>
             <p style={{ marginBottom: "5%" }}>Lakhvir Singh</p>
-            <div style={{ marginBottom: "4%" }} className="underline" />
+            <div style={{ marginBottom: "-5%" }} className="underline" />
             <p
               style={{
                 marginBottom: "30px",

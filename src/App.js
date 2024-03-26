@@ -1,7 +1,7 @@
 /* The line `// import './App.css';` is a commented-out import statement in JavaScript. It is used to
 import a CSS file named `App.css` into the current JavaScript file. However, since it is commented
 out with `//`, it is not active and does not have any effect on the code execution. */
-import './App.css';
+import "./App.css";
 // import Dashboard from './components/dashboard/Dashboard';
 
 // function App() {
@@ -16,12 +16,12 @@ import './App.css';
 import React from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 import Menu from "./components/menu/Menu";
-import Gallary from "./components/Gallary/Gallary"
+import Gallary from "./components/Gallary/Gallary";
 import About from "./components/about/About";
 import Contact from "./components/contactUs/ContactUS";
-import Home from "./components/home/Home"
-import Sweets from "./components/sweets/Sweets"
-import MenuCard from "./components/MenuCard/MenuCard"
+import Home from "./components/home/Home";
+import Sweets from "./components/sweets/Sweets";
+import MenuCard from "./components/MenuCard/MenuCard";
 
 const Routing = () => {
   return (
@@ -32,10 +32,10 @@ const Routing = () => {
       <Route exact path="/gallary" element={<Gallary />} />
       <Route exact path="/contact" element={<Contact />} />
       <Route exact path="/sweets" element={<Sweets />} />
-      <Route exact path="/menucard" element={<MenuCard />} />
+      <Route exact path="/menucard/:itemId" element={<MenuCard />} />
     </Routes>
-  )
-}
+  );
+};
 
 function App() {
   return (
@@ -80,7 +80,7 @@ function App() {
         </div>
       </div> */}
       {/* <MenuCard/> */}
-      <Routing/>
+      <Routing />
       {/* <Routes>
         <Route exact path="/" element={<Menu />} />
         <Route exact path="/about" element={<About />} />
