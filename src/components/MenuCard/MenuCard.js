@@ -635,7 +635,11 @@ function MenuCard() {
                 </p>
                 <p className="text-white text-start price">$ 12.99</p>
               </div>
-              <img src={paneer_tikka} alt="paneer_tikka" />
+              <img
+                src={paneer_tikka}
+                alt="paneer_tikka"
+                style={{ width: "200px" }}
+              />
             </div>
             <div class="menucards">
               <div className="menucards-1 mt-2">
@@ -648,7 +652,7 @@ function MenuCard() {
                 </p>
                 <p className="text-white text-start price">$ 12.99</p>
               </div>
-              <img src={malai} alt="malai" />
+              <img src={malai} alt="malai" style={{ width: "200px" }} />
             </div>
             <div class="menucards">
               <div className="menucards-1 mt-2">
@@ -661,7 +665,7 @@ function MenuCard() {
                 </p>
                 <p className="text-white text-start price">$ 12.99</p>
               </div>
-              <img src={haryali} alt="haryali" />
+              <img src={haryali} alt="haryali" style={{ width: "200px" }} />
             </div>
             <div class="menucards">
               <div className="menucards-1 mt-2">
@@ -671,7 +675,7 @@ function MenuCard() {
                 <p className="text-white text-start"></p>
                 <p className="text-white text-start price">$ 12.99</p>
               </div>
-              <img src={masala} alt="masala" />
+              <img src={masala} alt="masala" style={{ width: "200px" }} />
             </div>
             <div class="menucards">
               <div className="menucards-1 mt-2">
@@ -684,7 +688,7 @@ function MenuCard() {
                 </p>
                 <p className="text-white text-start price">$ 12.99</p>
               </div>
-              <img src={malai} alt="chat" />
+              <img src={malai} alt="chat" style={{ width: "200px" }} />
             </div>
             <div class="menucards">
               <div className="menucards-1 mt-2">
@@ -694,7 +698,7 @@ function MenuCard() {
                 </p>
                 <p className="text-white text-start price">$ 12.99</p>
               </div>
-              <img src={veg_kabab} alt="veg_kabab" />
+              <img src={veg_kabab} alt="veg_kabab" style={{ width: "200px" }} />
             </div>
             <div class="menucards">
               <div className="menucards-1 mt-2">
@@ -704,7 +708,11 @@ function MenuCard() {
                 <p className="text-white text-start"></p>
                 <p className="text-white text-start price">$ 19.99</p>
               </div>
-              <img src={desi_platters} alt="desi_platters" />
+              <img
+                src={desi_platters}
+                alt="desi_platters"
+                style={{ width: "200px" }}
+              />
             </div>
           </div>
         </div>
