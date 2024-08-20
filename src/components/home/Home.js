@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import demovid from "../../assets/video/demoVideo.mp4";
+// import demovid from "../../assets/video/demoVideo.mp4";
 import divider from "../../assets/images/divider-free-img-1.png";
 import image1 from "../../assets/images/main-page1.jpg";
 import image2 from "../../assets/images/main-page-2.jpg";
@@ -37,7 +37,7 @@ function Home() {
   const textBestOverlayRef = useRef(null);
   const drinkImageRef = useRef(null);
   const [animate, setAnimate] = useState(false);
-  const [isShaking, setIsShaking] = useState(false);
+  const [isShaking] = useState(false);
 
   const observeElements = () => {
     // Create an IntersectionObserver with a callback function
@@ -194,7 +194,9 @@ function Home() {
         </div>
         <NavLink to="/menu" activeClassName="active">
           <div className="elementor-button-wrapper">
-            <a className="elementor-button">Explore Menu</a>
+            <a href="/" className="elementor-button">
+              Explore Menu
+            </a>
           </div>
         </NavLink>
         <p className="itemdiamond-square-home"></p>

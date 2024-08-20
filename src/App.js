@@ -14,7 +14,7 @@ import "./App.css";
 
 // export default App;
 import React from "react";
-import { Routes, Route, NavLink } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Menu from "./components/menu/Menu";
 import Gallary from "./components/Gallary/Gallary";
 import About from "./components/about/About";

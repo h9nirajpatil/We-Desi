@@ -23,8 +23,8 @@ import image20 from "../../assets/GallaryImg/Pav-Bhaji.png";
 import image21 from "../../assets/GallaryImg/Raita.png";
 import image22 from "../../assets/GallaryImg/Shahi-Paneer-4.png";
 import image23 from "../../assets/GallaryImg/Veg-Kathi-Roll.png";
-import image24 from "../../assets/GallaryImg/allo-tikki-chana-1.png";
-import image25 from "../../assets/GallaryImg/allo-tikki-chana.png";
+// import image24 from "../../assets/GallaryImg/allo-tikki-chana-1.png";
+// import image25 from "../../assets/GallaryImg/allo-tikki-chana.png";
 import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 function Gallary() {
   return (
