@@ -11,8 +11,8 @@ function Navbar() {
     >
       <div className="container-fluid">
         {/* Logo */}
-        <a className="navbar-brand p-2" href="#">
-          <img src={logo} alt="Logo" width="150" height="155" />{" "}
+        <a className="navbar-brand p-2" href="/logo">
+          <img src={logo} alt="Logo" width="150" height="155" />
           {/* Adjust width and height as needed */}
         </a>
 
@@ -45,7 +45,7 @@ function Navbar() {
             <div className="mr-5">
               <ul className="navbar-nav gap-4">
                 <NavLink to="/" className="nav-item" activeClassName="active">
-                  <a className="nav-link nav-links1" href="#">
+                  <a className="nav-link nav-links1" href="/">
                     Home
                   </a>
                 </NavLink>
@@ -54,7 +54,7 @@ function Navbar() {
                   className="nav-item"
                   activeClassName="active"
                 >
-                  <a className="nav-link nav-links2" href="#">
+                  <a className="nav-link nav-links2" href="/about">
                     About Us
                   </a>
                 </NavLink>
@@ -66,7 +66,7 @@ function Navbar() {
                   className="nav-item"
                   activeClassName="active"
                 >
-                  <a className="nav-link nav-links3" href="#">
+                  <a className="nav-link nav-links3" href="/gallary">
                     Gallery
                   </a>
                 </NavLink>
@@ -75,7 +75,7 @@ function Navbar() {
                   className="nav-item"
                   activeClassName="active"
                 >
-                  <a className="nav-link nav-links4" href="#">
+                  <a className="nav-link nav-links4" href="/menu">
                     Menu
                   </a>
                 </NavLink>
@@ -84,7 +84,7 @@ function Navbar() {
                   className="nav-item"
                   activeClassName="active"
                 >
-                  <a className="nav-link nav-links5" href="#">
+                  <a className="nav-link nav-links5" href="/sweets">
                     Sweets
                   </a>
                 </NavLink>
@@ -93,7 +93,7 @@ function Navbar() {
                   className="nav-item"
                   activeClassName="active"
                 >
-                  <a className="nav-link nav-links6" href="#">
+                  <a className="nav-link nav-links6" href="/contact">
                     Contact Us
                   </a>
                 </NavLink>

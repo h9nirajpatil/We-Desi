@@ -30,73 +30,73 @@ function Gallary() {
   return (
     <div class="image-grid">
       <div class="image">
-        <img src={image1} alt="Image 1" />
+        <img src={image1} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image2} alt="Image 2" />
+        <img src={image2} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image3} alt="Image 3" />
+        <img src={image3} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image4} alt="Image 4" />
+        <img src={image4} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image5} alt="Image 5" />
+        <img src={image5} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image6} alt="Image 6" />
+        <img src={image6} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image7} alt="Image 7" />
+        <img src={image7} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image8} alt="Image 8" />
+        <img src={image8} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image9} alt="Image 8" />
+        <img src={image9} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image10} alt="Image 8" />
+        <img src={image10} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image11} alt="Image 8" />
+        <img src={image11} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image12} alt="Image 8" />
+        <img src={image12} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image13} alt="Image 8" />
+        <img src={image13} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image14} alt="Image 8" />
+        <img src={image14} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image15} alt="Image 8" />
+        <img src={image15} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image16} alt="Image 8" />
+        <img src={image16} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image17} alt="Image 8" />
+        <img src={image17} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image18} alt="Image 8" />
+        <img src={image18} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image19} alt="Image 8" />
+        <img src={image19} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image20} alt="Image 8" />
+        <img src={image20} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image21} alt="Image 8" />
+        <img src={image21} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image22} alt="Image 8" />
+        <img src={image22} alt="gallery" />
       </div>
       <div class="image">
-        <img src={image23} alt="Image 8" />
+        <img src={image23} alt="gallery" />
       </div>
       <ScrollToTopButton />
     </div>

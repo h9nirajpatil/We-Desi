@@ -131,9 +131,9 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 5vw;
-  align-items: start;
+  align-items: flex-start;
   font-size: 1.3rem;
   text-align: left;
 }
@@ -142,7 +142,7 @@
   left: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 5vw;
   font-size: 1.3rem;
   justify-content: left;

@@ -1,20 +1,20 @@
-.Sweets{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+.Sweets {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.sweet-text-main{
-    font-family: "Abril Fatface";
-    font-weight: 600;
+.sweet-text-main {
+  font-family: "Abril Fatface";
+  font-weight: 600;
 }
 
-.sweets-text{
-    font-size: 1.7vw;
-    text-align: start;
+.sweets-text {
+  font-size: 1.7vw;
+  text-align: flex-start;
 }
 
-.sweets-text-p{
-    font-size: 1.3vw;
-    margin-top: 2vh;
+.sweets-text-p {
+  font-size: 1.3vw;
+  margin-top: 2vh;
 }
